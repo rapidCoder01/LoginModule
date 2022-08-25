@@ -1,3 +1,6 @@
+# used MySql Workbench
+# use this shell scripts to create your database
+
 create database HomeCare;
 use HomeCare;
 
