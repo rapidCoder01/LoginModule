@@ -1,0 +1,33 @@
+create database HomeCare;
+use HomeCare;
+
+create table AdminAcc(
+id int not null primary key,
+username varchar(25) not null,
+password varchar(25)
+);
+
+insert into HomeCare.AdminAcc(id, username, password)
+values(1,"Admin24", "cnd");
+
+create table HomeCare.accountDetails(
+id int not null auto_increment primary key,
+fullname varchar(25) not null,
+username varchar(25) not null,
+password varchar(25) not null,
+mobileno varchar(13) not null,
+emailid varchar(50) not null
+);
+
+ALTER TABLE `HomeCare`.`AdminAcc` 
+CHANGE COLUMN `id` `id` INT(11) NOT NULL AUTO_INCREMENT ;
+
+create table HomeCare.Otp(
+id int not null auto_increment primary key,
+username varchar(25) not null,
+emailid varchar(50) not null,
+otp int(10) not null
+);
+
+insert into HomeCare.accountDetails(id, fullname, username, password, mobileno, emailid)
+values(1, "Debnath Layek", "D24", "chnd", "9113193346", "chandan7367082413@gmail.com");
