@@ -5,6 +5,8 @@ This is a Login Module Backend :
 Designed with the help of Java ,jsp & Servlets
 you can use this backend module for any websites 
 
+Database used : MySQL 
+
 Projects contains :
 
 Login portal
@@ -72,7 +74,25 @@ place alredy specified there.
 
 Thats all now your application is now ready to send mails to anyone who registers into your website .
 
-****************************************************************************************************** 
+*****************************************************************************************************
+
+Libraries present in lib folder in src/main/webapp/web-INF/lib
+
+Attached this all libraries in program in :- Eclipse
+
+Go to project right click and 
+select build path >configure build path > libraries > classpath > add jars 
+
+select all and add.
+
+****************************************************************************
+
+This program needs tomcat to run on local host 
+so install & configure tomcat first before running this project .
+
+****************************************************************************
+
+
 
 
 
